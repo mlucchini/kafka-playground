@@ -1,4 +1,4 @@
-# Vote
+# Kafka playground
 [![Build Status](https://img.shields.io/travis/mlucchini/kafka-playground.svg)](https://travis-ci.org/mlucchini/kafka-playground)
 
 Playground around Kafka.
