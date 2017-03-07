@@ -1,5 +1,5 @@
-# Kafka playground
-[![Build Status](https://img.shields.io/travis/mlucchini/kafka-playground.svg)](https://travis-ci.org/mlucchini/kafka-playground)
+# Spring playground
+[![Build Status](https://img.shields.io/travis/mlucchini/kafka-playground.svg)](https://travis-ci.org/mlucchini/spring-playground)
 
 Playground around Kafka.
 

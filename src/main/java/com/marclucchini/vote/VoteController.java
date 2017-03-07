@@ -1,4 +1,4 @@
-package com.marclucchini.app;
+package com.marclucchini.vote;
 
 import com.marclucchini.kafka.Topics;
 import org.apache.commons.logging.Log;
