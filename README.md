@@ -1,7 +1,7 @@
 # Spring playground
-[![Build Status](https://img.shields.io/travis/mlucchini/kafka-playground.svg)](https://travis-ci.org/mlucchini/spring-playground)
+[![Build Status](https://img.shields.io/travis/mlucchini/spring-playground.svg)](https://travis-ci.org/mlucchini/spring-playground)
 
-Playground around Kafka.
+Playground around Spring Cloud: Kafka, Reactor, etc.
 
 ## Local setup
 
