@@ -8,11 +8,9 @@ pipelines:
       - build:
           jobs:
             build:
-              environment_variables:
-                GRADLE_OPTS: "-Xmx64m -Dorg.gradle.jvmargs='-Xmx512m -XX:MaxPermSize=128m'"
               tasks:
                - exec:
                    command: bash
                    arguments:
                     - '-c'
-                    - 'docker run --rm --user $UID -v "$PWD":/project -w /project --name gradle gradle:alpine gradle build'
+                    - 'docker run --rm --user $UID -v "$PWD":/project -w /project --name java java:openjdk-8-jdk ./gradlew build'
