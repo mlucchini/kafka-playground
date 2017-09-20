@@ -1,6 +1,6 @@
 pipelines:
   buildAndTest:
-    group: simple
+    group: spring
     materials:
       mygit:
         git: https://github.com/mlucchini/spring-playground
@@ -10,7 +10,6 @@ pipelines:
             build:
               tasks:
                - exec:
-                   command: bash
+                   command: ./gradlew
                    arguments:
-                    - '-c'
-                    - 'docker run --rm --user $UID -v "$PWD":/project -w /project --name java java:openjdk-8-jdk ./gradlew build'
+                    - 'build'
